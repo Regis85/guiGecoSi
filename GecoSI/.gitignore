@@ -1,0 +1,9 @@
+*.class
+*.log
+# Package Files #
+*.jar
+*.war
+*.ear
+/archives
+/raw_output
+/bin/
