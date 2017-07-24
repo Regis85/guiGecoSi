@@ -2280,3 +2280,98 @@ READ 02 E7 06 00 12 00 20 30 AD 52 0B 03
 --> DISPATCH_READY
 ! READY
 ! OFF
+###### 
+Mon Jul 24 18:45:02 CEST 2017 Start /dev/ttyUSB0
+! STARTING
+SEND FF 02 02 F0 01 4D 6D 0A 03 
+SEND FF 02 02 F0 01 4D 6D 0A 03 
+[Debug] Fragment
+READ 02 F0 03 00 12 4D 8D 78 03 
+SEND 02 83 02 74 01 04 14 03 
+--> CONFIG_CHECK
+[Debug] Fragment
+READ 02 83 04 00 12 74 05 30 1B 03 
+SEND 02 83 02 33 01 16 11 03 
+--> SI6_CARDBLOCKS_SETTING
+[Debug] Fragment
+READ 02 83 04 00 12 33 C1 A0 85 03 
+[Info] SiCard6 192 Punches Mode Disabled
+SEND 02 F9 01 02 14 0A 03 
+! ON
+--> DISPATCH_READY
+! READY
+[Debug] Fragment
+READ 02 F9 03 00 12 02 76 78 03 
+! PROCESSING
+--> DISPATCH_READY
+! READY
+! OFF
+###### 
+Mon Jul 24 18:47:25 CEST 2017 Start /dev/ttyUSB0
+! STARTING
+SEND FF 02 02 F0 01 4D 6D 0A 03 
+SEND FF 02 02 F0 01 4D 6D 0A 03 
+[Debug] Fragment
+READ 02 F0 03 00 12 4D 8D 78 03 
+SEND 02 83 02 74 01 04 14 03 
+--> CONFIG_CHECK
+[Debug] Fragment
+READ 02 83 04 00 12 74 05 30 1B 03 
+SEND 02 83 02 33 01 16 11 03 
+--> SI6_CARDBLOCKS_SETTING
+[Debug] Fragment
+READ 02 83 04 00 12 33 C1 A0 85 03 
+[Info] SiCard6 192 Punches Mode Disabled
+SEND 02 F9 01 02 14 0A 03 
+! ON
+--> DISPATCH_READY
+! READY
+[Debug] Fragment
+READ 02 F9 03 00 12 02 76 78 03 
+! PROCESSING
+--> DISPATCH_READY
+! READY
+[Debug] Fragment
+[Debug] Fragment
+READ 02 E8 06 00 12 02 20 30 AE 0A 20 03 
+! PROCESSING
+--> RETRIEVE_SICARD_8_9_DATA
+SEND 02 EF 01 00 E2 09 03 
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+READ 02 EF 83 00 12 00 90 BF 8A 8D EA EA EA EA 36 02 93 FF 36 03 9F 4A 37 04 28 FD 00 9D 14 B8 02 20 30 AE 0C FF 93 64 2E 3B 55 4E 53 53 20 56 65 6E 64 65 65 3B 00 00 49 44 3B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6A BF 03 
+SEND 02 EF 01 01 E3 09 03 
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+[Debug] Fragment
+READ 02 EF 83 00 12 01 00 00 00 00 00 00 00 00 36 67 A2 2C 36 66 A3 8D 06 8E A4 D2 36 8D A7 08 06 8F A7 DE 37 6B 0B 37 37 6C 16 36 37 97 17 92 37 9E 18 AA 37 98 19 80 37 99 1A 31 37 9A 1B 14 37 9F 1B FD 37 A2 1E AC 37 A1 1F 19 37 A3 1F C4 37 9B 21 A0 37 9C 22 E4 37 A5 23 ED 37 9D 24 B7 EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 92 86 03 
+SEND 06 
+--> WAIT_SICARD_REMOVAL
+[Debug] Fragment
+[Debug] Fragment
+READ 02 E7 06 00 12 00 20 30 AE 52 01 03 
+--> DISPATCH_READY
+! READY
